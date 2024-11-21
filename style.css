@@ -1,0 +1,37 @@
+header{
+    font-size: 20px;
+    position: relative;
+    left: 35%;
+    top: 120px; 
+}
+.element{
+    padding: 25px;
+    border: 5px solid blue;
+    height: 250px;
+    width: 30%;
+    background-color: rgb(229, 216, 216);
+ }
+.ok p{
+    margin-left: 95px;
+}
+.input{
+    margin-bottom: 20px;
+}
+#depositAmount{
+    padding: 9px;
+    border-radius: 10px;
+}
+#withdrawAmount{
+    padding: 9px;
+    border-radius: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    padding: 9px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(97, 97, 231);
+}

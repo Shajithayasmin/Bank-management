@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="element">
+            <div class="item">
+                <div class="ok">
+                    <h1>Bank Management</h1>
+                    <p id="balance">Check balance: $0.00</p>
+                </div>
+                <div class="input">
+                    <input type="number" id="depositAmount" placeholder="Enter amount">
+                    <button class="btn" onclick="deposit()">Deposit</button>
+                </div>
+                <div class="input">
+                    <input type="number" id="withdrawAmount" placeholder="Enter amount">
+                    <button class="btn" onclick="withdraw()">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- let balance = 0;
+
+function updateBalanceDisplay() {
+    const balanceElement = document.getElementById('balance');
+    balanceElement.textContent =`Current Balance: $${balance.toFixed(2)}`;
+}
+
+function deposit() {
+    const depositInput = document.getElementById('depositAmount');
+    const amount = parseFloat(depositInput.value);
+
+    if (!isNaN(amount) && amount > 0) {
+        balance += amount;
+        alert(`Deposited: $${amount.toFixed(2)}, New Balance: $${balance.toFixed(2)}`);
+        depositInput.value = '';
+        updateBalanceDisplay();
+    } else {
+        alert("Deposit amount must be a positive number.");
+    }
+}
+
+function withdraw() {
+    const withdrawInput = document.getElementById('withdrawAmount');
+    const amount = parseFloat(withdrawInput.value);
+
+    if (!isNaN(amount) && amount > 0 && amount <= balance) {
+        balance -= amount;
+        alert(`Withdrawn: $${amount.toFixed(2)}, New Balance: $${balance.toFixed(2)}`);
+        withdrawInput.value = '';
+        updateBalanceDisplay();
+    } else {
+        alert("Insufficient balance or invalid amount.");
+    }
+} -->
+
